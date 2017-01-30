@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_lang"
+        android:title="eng"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/translator"
+        android:title="Language"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_menu1"
+                android:orderInCategory="100"
+                android:title="English" />
+
+            <item
+                android:id="@+id/action_menu2"
+                android:orderInCategory="100"
+                android:title="Tamil" />
+
+            <item
+                android:id="@+id/action_menu3"
+                android:orderInCategory="100"
+                android:title="Hindi" />
+        </menu>
+    </item>
+
+</menu>
